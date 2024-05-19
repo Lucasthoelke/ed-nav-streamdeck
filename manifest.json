@@ -1,0 +1,95 @@
+{
+  "Actions": [
+    {
+      "UUID": "xyz.thoelke.edroute.copynext.action",
+      "Icon": "assets/setkeyimage/action_icon",
+      "Name": "Copy next system",
+      "States": [
+        {
+          "Image": "assets/setkeyimage/key_icon"
+        }
+      ],
+      "PropertyInspectorPath": "property_inspector/setkeyimage_pi.html",
+      "SupportedInMultiActions": true,
+      "Controllers": [
+        "Keypad"
+      ],
+      "Tooltip": "",
+      "UserTitleEnabled": true
+    },
+    {
+      "UUID": "xyz.thoelke.edroute.next.action",
+      "Icon": "assets/setkeyimage/action_icon",
+      "Name": "Next system",
+      "States": [
+        {
+          "Image": "assets/setkeyimage/key_icon"
+        }
+      ],
+      "PropertyInspectorPath": "property_inspector/setkeyimage_pi.html",
+      "SupportedInMultiActions": true,
+      "Controllers": [
+        "Keypad"
+      ],
+      "Tooltip": "",
+      "UserTitleEnabled": true
+    },
+    {
+      "UUID": "xyz.thoelke.edroute.prev.action",
+      "Icon": "assets/setkeyimage/action_icon",
+      "Name": "Previous system",
+      "States": [
+        {
+          "Image": "assets/setkeyimage/key_icon"
+        }
+      ],
+      "PropertyInspectorPath": "property_inspector/setkeyimage_pi.html",
+      "SupportedInMultiActions": true,
+      "Controllers": [
+        "Keypad"
+      ],
+      "Tooltip": "",
+      "UserTitleEnabled": true
+    },
+    {
+      "UUID": "xyz.thoelke.edroute.auto_toggle.action",
+      "Icon": "assets/setkeyimage/action_icon",
+      "Name": "Journal mode",
+      "States": [
+        {
+          "Image": "assets/setkeyimage/streamdeck_key_manual"
+        },
+        {
+          "Image": "assets/setkeyimage/streamdeck_key_auto"
+        }
+      ],
+      "PropertyInspectorPath": "property_inspector/setkeyimage_pi.html",
+      "SupportedInMultiActions": true,
+      "Controllers": [
+        "Keypad"
+      ],
+      "Tooltip": "",
+      "UserTitleEnabled": true
+    }
+  ],
+  "Author": "Lucas Thoelke",
+  "CodePath": "run.bat",
+  "Description": "",
+  "Icon": "assets/plugin_icon",
+  "Name": "ED Router",
+  "Version": "0.0.1",
+  "SDKVersion": 2,
+  "OS": [
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ],
+  "Software": {
+    "MinimumVersion": "6"
+  },
+  "Category": "ED Router",
+  "CategoryIcon": "assets/category_icon",
+  "CodePathWin": "run.bat",
+  "URL": ""
+}

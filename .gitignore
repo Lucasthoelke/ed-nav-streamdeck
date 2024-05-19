@@ -1,0 +1,5 @@
+/venv/
+/routes/
+/logs/
+/.idea/
+/__pycache__/
